@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7ef">
+  <meta name="description" content="A friendly guide to recycling, reusing, and composting everyday things.">
+  <title>Second Nature — A better way to deal with waste</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="#" aria-label="Second Nature home"><span class="brand-mark" aria-hidden="true">↻</span>second nature</a>
+    <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="nav-links" id="nav-links"><a href="#guide">The guide</a><a href="#how-it-works">How it works</a><a href="#quiz">Quick quiz</a><a href="3d.html">Play the maze</a><a class="nav-cta" href="#guide">Find a better way <span aria-hidden="true">↗</span></a></div>
+  </nav></header>
+  <main>
+    <section class="hero" id="how-it-works"><div class="hero-grid wrap">
+      <div><span class="eyebrow">Small choices. A lighter footprint.</span><h1>Waste less.<br><span>Wonder more.</span></h1>
+        <p class="hero-copy">Not sure where that empty jar or old T-shirt should go? Find simple, practical ways to recycle, reuse, and compost everyday things.</p>
+        <div class="hero-actions"><a class="button" href="#guide">Explore the guide <span aria-hidden="true">↓</span></a><a class="button button-light" href="#quiz">Take the 1-min quiz <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="avatar-stack" aria-hidden="true"><span>🍃</span><span>♻️</span><span>🌱</span></span><span>Good habits start with one small thing.</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of bins for sorting waste">
+      <div class="scene3d" data-tilt-scene aria-hidden="true">
+  <span class="scene-label">THE GOOD SORT CLUB · VOL. 01</span>
+  <div class="scene-planet"></div><div class="scene-orbit"></div>
+  <span class="scene-speck one">✦</span><span class="scene-speck two">✧</span>
+  <div class="scene-floor"></div>
+  <div class="scene-bins">
+    <div class="scene-bin"><div class="bin-side"></div><div class="bin-lid"></div><div class="bin-front"><span class="bin-symbol">♻</span><strong>Recycle</strong><small>Give it a round two</small></div></div>
+    <div class="scene-bin"><div class="bin-side"></div><div class="bin-lid"></div><div class="bin-front"><span class="bin-symbol">✿</span><strong>Compost</strong><small>Back to the earth</small></div></div>
+    <div class="scene-bin"><div class="bin-side"></div><div class="bin-lid"></div><div class="bin-front"><span class="bin-symbol">↻</span><strong>Reuse</strong><small>Keep good things going</small></div></div>
+  </div>
+  <span class="scene-footnote">A better next step starts here ↗</span>
+</div><span class="art-caption">A little less landfill</span><span class="art-sun"></span><span class="art-hill-back"></span><span class="art-hill"></span><span class="art-leaf one" aria-hidden="true">❧</span><span class="art-leaf two" aria-hidden="true">❧</span><span class="art-sticker">SORT<br>SMART<br>LIVE LIGHT</span><div class="bins" aria-hidden="true"><div class="bin"><span class="bin-emoji">🍌</span><span class="bin-label">Compost</span></div><div class="bin"><span class="bin-emoji">♻️</span><span class="bin-label">Recycle</span></div><div class="bin"><span class="bin-emoji">🫙</span><span class="bin-label">Reuse</span></div></div></div>
+    </div></section>
+    <div class="ticker" aria-label="Three ways to reduce waste"><div class="ticker-inner wrap"><span class="ticker-item"><strong>01</strong> Recycle what you can</span><span class="ticker-item"><strong>02</strong> Reuse what you have</span><span class="ticker-item"><strong>03</strong> Compost the right scraps</span><span class="ticker-item"><strong>↗</strong> Pass good habits along</span></div></div>
+    <section class="guide wrap" id="guide">
+      <div class="section-heading"><div><span class="eyebrow">Your everyday cheat sheet</span><h2>Give good stuff<br>a second life.</h2></div><p>Look up a familiar item, then follow a few easy steps to give it the best next destination. When in doubt, check your local collection rules.</p></div>
+      <div class="guide-controls"><div class="filters" role="group" aria-label="Filter items by destination"><button class="filter active" type="button" data-filter="all" aria-pressed="true">Everything</button><button class="filter" type="button" data-filter="Recycle" aria-pressed="false">♻ Recycle</button><button class="filter" type="button" data-filter="Compost" aria-pressed="false">✿ Compost</button><button class="filter" type="button" data-filter="Reuse" aria-pressed="false">↻ Reuse</button><button class="filter" type="button" data-filter="Special drop-off" aria-pressed="false">＋ Special drop-off</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="item-search" type="search" placeholder="Search an item..." aria-label="Search waste items"></label></div>
+      <div class="card-grid" id="card-grid" aria-live="polite"></div><p class="local-note">♧ Recycling and composting rules vary by location. This guide offers a helpful starting point—not a replacement for your local waste provider's instructions.</p>
+    </section>
+    <section class="quiz-section wrap" id="quiz"><div class="quiz-panel">
+      <div class="quiz-copy"><span class="eyebrow">A tiny knowledge check</span><h2>Sort it out.<br>Feel good about it.</h2><p>Three quick questions, zero pressure. See how everyday waste decisions can become second nature.</p></div>
+      <div class="quiz-card" aria-live="polite"><div class="quiz-meta"><span id="quiz-count">Question 1 of 3</span><span id="quiz-score">0 correct</span></div><h3 id="quiz-question"></h3><div class="answers" id="quiz-answers"></div><div class="quiz-feedback" id="quiz-feedback"></div><button class="quiz-next" id="quiz-next" type="button" hidden>Next question →</button></div>
+    </div></section>
+    <section class="bottom-cta wrap"><div class="cta-box"><div><h2>One item at a time is plenty.</h2><p>Pick something from the guide and try one new habit today.</p></div><a class="button" href="#guide">Find your first item <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer><div class="footer-inner wrap"><a class="footer-brand" href="#">↻ second nature</a><span>Less waste, more possibility. Make every little thing count.</span><span>Made for a greener everyday 🌿</span></div></footer>
+  <script src="script.js"></script>
+  <script src="3d.js"></script>
+</body>
+</html>
